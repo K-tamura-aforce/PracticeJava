@@ -24,4 +24,11 @@ public class Dog extends Animal{
 //
 //	} //設計書段階のため実行できない
 
+    @Override
+	void speak () {
+
+		System.out.println("わんわん");
+
+	}
+
 }

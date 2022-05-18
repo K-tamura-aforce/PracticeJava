@@ -20,4 +20,10 @@ public class Truck extends Car{
 		this.payload -= value;
 	}
 
+	@Override
+	String getCarType() {
+
+		return "トラック";
+	}
+
 }
